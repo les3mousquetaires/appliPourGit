@@ -64,3 +64,6 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+*.cs diff=csharp 
+*.csproj -text merge=union 
+*.sln merge=union 
