@@ -34,6 +34,9 @@
 #*.modelproj merge=binary
 #*.sqlproj   merge=binary
 #*.wwaproj   merge=binary
+*.cs diff=csharp
+*.csproj -text merge=union
+*.sln merge=union
 
 ###############################################################################
 # behavior for image files
